@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  margin: 20px auto;
+  width: 50%;
+  justify-content: center;
+}
+
+.filter-todo button {
+  margin-right: 15px;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-todo button:hover {
+  text-decoration: underline;
+}
+
+.filter-todo button.active {
+  background-color: #15ab9c;
+  color: #fff;
+}

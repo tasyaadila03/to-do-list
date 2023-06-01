@@ -1,0 +1,32 @@
+.add-todo {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+}
+
+.add-todo input {
+  color: #000;
+  padding: 5px;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 280px;
+}
+.add-todo input::placeholder {
+  color: #d9d9d9;
+}
+
+.add-todo button {
+  padding: 7px 10px;
+  width: 50px;
+  background-color: #695cf5;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.add-todo button:hover {
+  background-color: #4e3dc8;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
