@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="header">
-        <h1>What's the plant for today?</h1>
+        <h1>What's the plan for today?</h1>
       </div>
 
       <AddTodo addTodo={addTodo} />
